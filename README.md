@@ -1,15 +1,16 @@
 # CulTech Tour Assistant
 ### Creating a Domain-Specific Voice Chatbot as a Virtual Tour Assistant
-The goal is to use public data and analyze which factors might influence sparrow populations.  
-Our conclusion is that agricultural land reduction and air pollution may affect sparrow numbers, while factors such as weather, river pollution, and predators could not be definitively assessed from the data.
+()
 ## Flowchart
 <img src="https://github.com/YiHsiu7893/CulTech_Tour_Assistant/blob/main/pic/Flowchart.jpg" width=90% height=90%>
 
 ## Data Description
-| Item        | Description                                        |
-|-------------|----------------------------------------------------|
-| main   | cleaned data                                      |
-| FixedBase   | transferred data                                  |
-| RAG    | database schema and analysis results              |
-| avatar   | codes performing data transformation              |
-| audio     | convert file format from XML to CSV, including Weather_Station and Weather |
+| File                  | Functionality                                                                       |
+|-----------------------|-------------------------------------------------------------------------------------|
+| Avatar/add_block      | draws a conversation block on the avatar interface                                  |
+| Knowledge/web_crawler | crawls information from the tourist attraction websites                             |
+| FixedBase             | implements the fixed-base retrieval mechanism for chatbot responses                 |
+| RAG                   | implements the RAG (Retrieve and Generate) mechanism for chatbot responses          |
+| audio                 | converts speech to text and text to speech                                          |
+| avatar                | creates an avatar interface that simulates talking and also synchronizes with voice |
+| main                  | executes the chatbot application                                                    |
