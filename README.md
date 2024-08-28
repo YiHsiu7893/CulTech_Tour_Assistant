@@ -3,7 +3,7 @@
 The goal is to use public data and analyze which factors might influence sparrow populations.  
 Our conclusion is that agricultural land reduction and air pollution may affect sparrow numbers, while factors such as weather, river pollution, and predators could not be definitively assessed from the data.
 ## Flowchart
-<img src="https://github.com/YiHsiu7893/Sparrow_Population_Analysis/blob/main/pictures/schema.png" width=80% height=60%>
+<img src="https://github.com/YiHsiu7893/CulTech_Tour_Assistant/blob/main/pic/Flowchart.jpg">
 
 ## Data Description
 | Item        | Description                                        |
