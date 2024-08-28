@@ -4,7 +4,7 @@
 ## Flowchart
 <img src="https://github.com/YiHsiu7893/CulTech_Tour_Assistant/blob/main/pic/Flowchart.jpg" width=90% height=90%>
 
-## Data Description
+## Code Overview
 | File                  | Functionality                                                                       |
 |-----------------------|-------------------------------------------------------------------------------------|
 | Avatar/add_block      | draws a conversation block on the avatar interface                                  |
