@@ -3,7 +3,7 @@ Model:
 https://huggingface.co/taide/TAIDE-LX-7B-Chat-4bit
 """
 from huggingface_hub import login
-token = "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"
+token = <your_key>
 #login(token=token, add_to_git_credential=True)
 
 import warnings
